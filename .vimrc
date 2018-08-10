@@ -54,7 +54,7 @@ nnoremap <Leader>x :x<cr>
 nnoremap <Leader>s :StripWhitespace<cr>
 nnoremap <Leader>e :Explore<cr>
 nnoremap <Leader>v :Vexplore<cr>
-nnoremap <Leader>s :Sexplore<cr>
+nnoremap <Leader>b :Sexplore<cr>
 nnoremap <Leader>t :Texplore<cr>
 
 let g:closetag_filenames = "*.html,*.xhtml,*.phtml,*.js,*.jsx,*.html.erb"
