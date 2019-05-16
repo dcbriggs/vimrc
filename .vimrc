@@ -50,6 +50,8 @@ nnoremap <Leader>n :tabn<cr>
 nnoremap <Leader>p :tabp<cr>
 nnoremap <Leader>w :w<cr>
 nnoremap <Leader>q :q<cr>
+nnoremap <Leader>f :q!<cr>
+nnoremap <Leader>a :qa<cr>
 nnoremap <Leader>x :x<cr>
 nnoremap <Leader>s :StripWhitespace<cr>
 nnoremap <Leader>e :Explore<cr>
