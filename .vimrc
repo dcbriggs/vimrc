@@ -27,6 +27,8 @@ Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
 
 
 " Initialize plugin system
@@ -50,7 +52,6 @@ nnoremap <Leader>n :tabn<cr>
 nnoremap <Leader>p :tabp<cr>
 nnoremap <Leader>w :w<cr>
 nnoremap <Leader>q :q<cr>
-nnoremap <Leader>f :q!<cr>
 nnoremap <Leader>a :qa<cr>
 nnoremap <Leader>x :x<cr>
 nnoremap <Leader>s :StripWhitespace<cr>
@@ -63,3 +64,5 @@ let g:closetag_filenames = "*.html,*.xhtml,*.phtml,*.js,*.jsx,*.html.erb"
 
 set hlsearch
 set autoread
+
+set noswapfile
